@@ -24,3 +24,9 @@ pr:
   paths:
     include:
     - sdk/keyvault/
+
+jobs:
+- job: A
+  steps:
+  - bash: echo "A"
+
