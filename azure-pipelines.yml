@@ -28,5 +28,5 @@ pr:
 jobs:
 - job: A
   steps:
-  - bash: echo "AB"
+  - bash: echo "A"
 
