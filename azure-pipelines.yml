@@ -7,24 +7,10 @@ schedules:
   branches:
     include:
     - master
-    -release/*
   always: false
 
 trigger:
-  branches:
-    include:
-    - master
-  paths:
-    include:
-    - sdk/keyvault/
-
-pr:
-  branches:
-    include:
-    - master
-  paths:
-    include:
-    - sdk/keyvault/
+  - master
 
 jobs:
 - job: A
