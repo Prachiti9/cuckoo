@@ -3,7 +3,7 @@
 
 schedules:
 - cron: "0 10 * * *"
-  displayName: Nightly cuckoo
+  displayName: Nightly cuckoo2
   branches:
     include:
     - master
